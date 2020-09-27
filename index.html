@@ -52,20 +52,18 @@
 				</div>
 			</div>
         </div>
-        <div class="p-2 bd-highlight">
-			<div class="dropdown">
-				<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		        <i class="fas fa-cog"></i>
-		        </button>
-				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="#">Action</a>
-					<a class="dropdown-item" href="#">Another action</a>
-					<a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Log Out</a>
-				</div>
-			</div>
-		</div>  
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+        </div>
     </nav>
     <div class="container">
 		<nav aria-label="...">
@@ -82,13 +80,17 @@
 				</li>
 			</ul>
 			<div class="tab-content" id="pills-tabContent">
-				<div class="tab-pane fade show active" id="pills-grid" role="tabpanel" aria-labelledby="pills-grid">
+				<div class="tab-pane fade show active" id="pills-list" role="tabpanel" aria-labelledby="pills-list">
                     <div class="row">
                         <div class="col-8 card mx-auto my-3 px-0">
-                            <div class="card-header">
+                            <div class="card-header bg-transparent">
                                 <div class="row">
-                                    <div class="col-10">My first photo</div>
-                                    <div class="col-2 text-right">16/09/2020</div>
+                                    <div class="col-md-10 col-7">
+                                    <h5>My first photo</h5>
+                                    </div>
+                                    <div class="col-md-2 col-5 text-right">
+                                    <h6>16/09</h6>
+                                    </div>
                         
                                 </div>
                             </div>
@@ -98,67 +100,130 @@
                                 <h6 class="card-subtitle mb-2 text-muted">27 Likes</h6>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                                     card's content.</p>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" placeholder="">
+                                    </div>
+                                    <div class="col-1">
+                                    <i class="fas fa-ellipsis-v"></i></div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-8 card mx-auto mb-4 px-0">
-                            <div class="card-header">
+                            <div class="card-header bg-transparent">
                                 <div class="row">
-                                    <div class="col-10">My second photo</div>
-                                    <div class="col-2 text-right">16/09/2020</div>
-                        
+                                    <div class="col-md-10 col-7">
+                                    <h5>My second photo</h5>
+                                    </div>
+                                    <div class="col-md-2 col-5 text-right">
+                                    <h6>16/09</h6>
+                                    </div>
                                 </div>
                             </div>
                         <img src="https://picsum.photos/300/200?random=2" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-subtitle mb-2 text-muted">23 Likes</h6>
                                 <p class="card-text">This is an abstract picture</p>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" placeholder="">
+                                    </div>
+                                    <div class="col-1">
+                                    <i class="fas fa-ellipsis-v"></i></div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-8 card mx-auto mb-4 px-0">
-                            <div class="card-header">
+                            <div class="card-header bg-transparent">
                                 <div class="row">
-                                    <div class="col-10">Another photo</div>
-                                    <div class="col-2 text-right">12/10/2020</div>
-                        
+                                    <div class="col-md-10 col-7">
+                                    <h5>My third photo</h5>
+                                    </div>
+                                    <div class="col-md-2 col-5 text-right">
+                                    <h6>01/10</h6>
+                                    </div>
                                 </div>
                             </div>
                         <img src="https://picsum.photos/300/200?random=3" class="card-img-top" alt="...">
                            <div class="card-body">
                                 <h6 class="card-subtitle mb-2 text-muted">31 Likes</h6>
                                 <p class="card-text">Working with Bootstrap is just amazing.</p>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" placeholder="">
+                                    </div>
+                                    <div class="col-1">
+                                    <i class="fas fa-ellipsis-v"></i></div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-8 card mx-auto mb-4 px-0">
-                            <div class="card-header">
+                            <div class="card-header bg-transparent">
                                 <div class="row">
-                                    <div class="col-10">Hi there</div>
-                                    <div class="col-2 text-right">17/09/2020</div>
+                                    <div class="col-md-10 col-7">
+                                    <h5>My fourth photo</h5>
+                                    </div>
+                                    <div class="col-md-2 col-5 text-right">
+                                    <h6>04/10</h6>
+                                    </div>
                                 </div>
                             </div>
                         <img src="https://picsum.photos/300/200?random=4" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-subtitle mb-2 text-muted">12 Likes</h6>
                                 <p class="card-text">Working with Bootstrap is just amazing.</p>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" placeholder="">
+                                    </div>
+                                    <div class="col-1">
+                                    <i class="fas fa-ellipsis-v"></i></div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-8 card mx-auto mb-4 px-0">
-                            <div class="card-header">
+                            <div class="card-header bg-transparent">
                                 <div class="row">
-                                    <div class="col-10">My last photo</div>
-                                    <div class="col-2 text-right">14/09/2020</div>
+                                    <div class="col-md-10 col-7">
+                                    <h5>My fifth photo</h5>
+                                    </div>
+                                    <div class="col-md-2 col-5 text-right">
+                                    <h6>06/10</h6>
+                                    </div>
                                 </div>
                             </div>
                         <img src="https://picsum.photos/300/200?random=5" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-subtitle mb-2 text-muted">31 Likes</h6>
                                 <p class="card-text">Working with Bootstrap is just amazing.</p>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" placeholder="">
+                                    </div>
+                                    <div class="col-1">
+                                    <i class="fas fa-ellipsis-v"></i></div>
+                                </div>
                             </div>
                         </div>
                     </div>    
 			    </div>
-<!--a partir de aquí va todo el codigo de la cuadrícula-->
-                <div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list">
-                    <div class="container">				
+                <div class="tab-pane fade" id="pills-grid" role="tabpanel" aria-labelledby="pills-grid">
+                    <div class="container my-3">				
                         <div class="row no-gutters">
                             <div class="col-4">
                                 <div class="card" style="width: 100%;"> 
